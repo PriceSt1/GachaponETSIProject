@@ -66,4 +66,15 @@ public class Profesores {
         this.tipo = tipo;
     }
 
+    @Override
+    public String toString() {
+        return "Profesore{" +
+                "Tier=" + estrella +
+                ", daño=" + daño +
+                ", velocidadAtaque=" + velocidadAtaque +
+                ", vida=" + vida +
+                ", nombre='" + nombre + '\'' +
+                ", tipo=" + tipo +
+                '}';
+    }
 }
